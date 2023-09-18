@@ -41,7 +41,10 @@ We perform differential expression analysis using `pyDESeq2`. The code for this 
 
 ### 6. Visualization
 
-To visualize the results, we used `gseaplot` for generating plots. The code for creating heatmaps and volcano plots can be found in the Jupyter notebook `Visualization.ipynb`.
+To visualize the results, we used `gseaplot` for generating plots. The code for creating heatmaps and volcano plots can be found in the Jupyter notebook.
+
+### 7. Gene Ontology Enrichment Analysis
+In this project, we conducted Gene Ontology (GO) enrichment analysis to gain insights into the biological processes, molecular functions, and cellular components associated with the differentially expressed genes (DEGs) identified in our RNA-seq data. The analysis was performed using the `goatools` library in Python.
 
 ## Results
 
@@ -57,6 +60,7 @@ This analysis provides insights into the mechanism underlying the disturbance of
 - `STAR`
 - `pyDESeq2`
 - `gseaplot`
+- `goatools`
 - Jupyter notebooks for analysis and visualization
 
 ## Usage
